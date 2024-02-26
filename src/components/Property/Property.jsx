@@ -1,10 +1,13 @@
 import React from 'react'
 import './property.css'
-import data from '../../../utils/slider.json';
+// import data from '../../../utils/slider.json';
+import data from '../../utils/slider.json'
+
 import 'swiper/css';
 import {Swiper,SwiperSlide,useSwiper} from 'swiper/react';
 import { color } from 'framer-motion';
-import { SliderSetting } from '../../../utils/common';
+import {SliderSetting }from '../../utils/common'
+// import { SliderSetting } from '../../../utils/common';
 
 export default function Property() {
   return (
