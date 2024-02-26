@@ -1,3 +1,7 @@
+.property-container{
+    overflow: hidden;
+    position: relative;
+}
 .property-header{
     margin-bottom: 2rem;
 }
@@ -39,3 +43,34 @@
     box-shadow: 0px 72px 49px --51px rgba(136, 160, 255, 0.21);
 }
 
+.swiper-hoeizontal{
+    overflow: visible;
+}
+
+
+.property-button{
+    gap: 1rem;
+    /* position: absolute; */
+    top: -4rem;
+    right: 0;
+}
+
+.property-button >button{
+    font-size: 1.rem;
+    border: none;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+
+}
+
+.property-button>:nth-child(1)
+{
+    background-color: #EEEEFF;
+}
+.property-button>:nth-child(2)
+{
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
