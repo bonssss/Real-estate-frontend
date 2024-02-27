@@ -44,3 +44,15 @@
 .accordionbutton .primaryText{
     font-size: 1.1rem;
 }
+
+
+@media screen and (max-width:1024px){ 
+    .value-container{
+        flex-direction: column;
+    }
+    @media screen  and (max-width: 768px){
+        .accordionbutton .primaryText{
+            font: size 0.8rem; ;
+        
+    }
+}}

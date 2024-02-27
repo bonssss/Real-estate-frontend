@@ -13,3 +13,14 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .footer-container{
+        justify-content: center;
+    }
+    .footer-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+    
+}

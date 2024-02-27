@@ -13,7 +13,7 @@ export default function Property() {
   return (
     <section className="property-wrapper">
         <div className="paddings innerWidth property-container">
-            <div className="property-header flexColStart">
+            <div className=" flexColStart property-header">
                 <span className='orangeText'>Best Choice</span>
                 <span className='primaryText'>Our Popular Properties</span>
             </div>
