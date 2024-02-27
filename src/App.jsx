@@ -5,6 +5,7 @@ import Company from "./components/company/Company";
 import Value from "./components/Value/Value";
 import Property from "./components/Property/Property";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
   <Property/>
   <Value/>
   <Contact/>
+  
+  <Footer/>
 
  
  </div>
