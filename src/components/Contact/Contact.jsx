@@ -5,7 +5,7 @@ import {BsFillChatDotsFill} from 'react-icons/bs';
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2';
 export default function Contact() {
   return (
-    <section className="contact-wrapper">
+    <section className="contact-wrapper" id='contact'>
         <div className="paddings innerWidth flexCenter contact-container">
             <div className=" flexColStart left-contact">
                 <span className='orangeText'>Contact Us</span>

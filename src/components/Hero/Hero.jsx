@@ -2,17 +2,24 @@ import React from "react";
 import { HiLocationMarker } from "react-icons/hi";
 import "./hero.css";
 import CountUp from "react-countup";
+import { motion } from "framer-motion";
 function Hero() {
   return (
-    <section className="hero-wrapper">
+    <section className="hero-wrapper"id="home" >
       <div className=" innerWidth paddings flexCenter hero-container">
         <div className=" flexColStart left-hero">
           <div className="hero-title">
             <div className="Orange-circle" />
-            <h1>
+            <motion.h1
+            initial={{y:"2rem", opacity:0}}
+            animate={{y:0, opacity:1}}
+            transition={{
+              duration:2,
+              type:"spring"
+            }}>
               A Tradition <br />
               Of Trust
-            </h1>
+            </motion.h1>
           </div>
           <div className=" flexColStart hero-description">
             <span  className="secondaryText">Hiya Real Estate: Modern. Personalized. Exceptional.</span>
@@ -53,9 +60,15 @@ function Hero() {
         </div>
 
         <div className="flexCenter right-hero">
-          <div className="image-container">
+          <motion.div
+          initial={{x:"7rem", opacity:0}}
+          animate={{x:0,opacity:1}}
+          transition={{
+            duration:3,
+            type:"spring"
+          }} className="image-container">
             <img src="./hero-image.png" alt="hero" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

@@ -11,7 +11,7 @@ import {SliderSetting }from '../../utils/common'
 
 export default function Property() {
   return (
-    <section className="property-wrapper">
+    <section className="property-wrapper" id='property'>
         <div className="paddings innerWidth property-container">
             <div className=" flexColStart property-header">
                 <span className='orangeText'>Best Choice</span>

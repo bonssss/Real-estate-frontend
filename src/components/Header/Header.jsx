@@ -16,17 +16,19 @@ export default function Header() {
   return (
     <section className="header-wrapper">
       <div className=" flexCenter paddings innerWidth header-container">
-        <img src="./logo.png" alt="logo" width={100} />
+        {/* <img src="./log.png" alt="logo" width={100} /> */}
+        <h3>HIYA</h3>
 <OutsideClickHandler 
 onOutsideClick={()=>{
   setMenuOpened(false)
 }}>
         <div className="flexCenter header-menu"
         style={getMenuStyle(menuOpened)}>
-        <a href="">Residencies</a>
-        <a href="">Our value</a>
-        <a href="">Contact us</a>
-        <a href="">Get Started</a>
+                  <a href="#home">Home</a>
+
+        <a href="#property">Properties</a>
+        <a href="#value">Our value</a>
+        <a href="#contact">Contact us</a>
         <button className=" button"><a href=""> Contact</a></button>
         
         </div>

@@ -14,7 +14,7 @@ import data from "../../utils/accordion";
 
 export default function () {
   return (
-    <section className="value-wrapper">
+    <section className="value-wrapper" id="value">
       <div className="innerWidth paddings flexCenter value-container">
         <div className="left-value">
           <div className="image-container">
