@@ -29,7 +29,7 @@ onOutsideClick={()=>{
         <a href="#property">Properties</a>
         <a href="#value">Our value</a>
         <a href="#contact">Contact us</a>
-        <button className=" button"><a href=""> Contact</a></button>
+        <button className=" button" ><a href=""> Contact</a></button>
         
         </div>
         </OutsideClickHandler>

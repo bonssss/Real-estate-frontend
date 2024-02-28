@@ -18,15 +18,15 @@ export default function () {
       <div className="innerWidth paddings flexCenter value-container">
         <div className="left-value">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="./hiya3.jpg" alt="" />
           </div>
         </div>
         <div className="flexColStart right-value">
           <span className="orangeText">Our Values</span>
           <span className="primaryText">Values We Give</span>
           <span className="secondaryText">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            <br /> Culpa, sit.A tempore itaque omnis impedit
+          At Hiya Real Estate, we embody Excellence, Integrity, and Innovation. We deliver unparalleled quality, conduct business with honesty and transparency, and embrace creativity to shape the future of real estate.
+   
           </span>
           <Accordion
             className="accordion"

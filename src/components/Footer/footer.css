@@ -13,6 +13,10 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+.footer-menu>span:hover{
+    font-size: 2rem;
+    color: var(--blue);
+}
 
 @media (max-width: 768px) {
     .footer-container{

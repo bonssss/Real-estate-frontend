@@ -35,7 +35,7 @@ function Hero() {
           <div className="flexCenter status">
             <div className=" flexColCenter stat">
               <span>
-                <CountUp start={8000} end={9000} duration={4} />
+                <CountUp start={8} end={20} duration={4} />
                 <span>+</span>
               </span>
               <span  className="secondaryText">Pre mium Products</span>
@@ -43,7 +43,7 @@ function Hero() {
 
             <div className=" flexColCenter stat">
               <span>
-                <CountUp start={9000} end={10000} duration={4} />
+                <CountUp start={900} end={1000} duration={4} />
                 <span>+</span>
               </span>
               <span  className="secondaryText">Number of Customers</span>
@@ -51,7 +51,7 @@ function Hero() {
 
             <div className=" flexColCenter stat">
               <span>
-                <CountUp start={10} end={40} duration={4} />
+                <CountUp start={1} end={4} duration={4} />
                 <span>+</span>
               </span>
               <span className="secondaryText"> Awards</span>
@@ -67,7 +67,7 @@ function Hero() {
             duration:3,
             type:"spring"
           }} className="image-container">
-            <img src="./hero-image.png" alt="hero" />
+            <img src="./hiya.png" alt="hero" />
           </motion.div>
         </div>
       </div>
